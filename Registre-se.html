@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Registro</title>
+    <link rel="stylesheet" href="css/Registre-se.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Crie sua conta</h2>
+        <form action="registro.php" method="POST" class="form" onsubmit="return validarSenha()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required autocomplete="off">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required autocomplete="off">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confirmarSenha">Confirmar Senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o JS -->
+</body>
+
+</html>

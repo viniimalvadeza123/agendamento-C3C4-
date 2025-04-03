@@ -1,0 +1,64 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: #00040f;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px 0;
+
+
+}
+
+header {
+    background-color: #000520a1;  /* Cor de fundo do cabeçalho */
+    color: white;            /* Cor do texto */
+    padding: 0px 0;         /* Espaçamento interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/* Estilo para o logo */
+header .logo img {
+    height: 50px;  /* Ajusta o tamanho do logo */
+    display: flex;
+}
+/* Estilo para a navegação */
+nav ul {
+    list-style-type: none;   /* Remove os marcadores da lista */
+    display: flex;           /* Exibe os itens em linha */
+    gap: 20px;               /* Espaço entre os itens */
+}
+
+/* Estilo para os links da navegação */
+nav a {
+    color: white;           /* Cor do texto */
+    text-decoration: none;  /* Remove o sublinhado */
+    font-size: 18px;        /* Tamanho da fonte */
+}
+
+nav a:hover {
+    color: #ffee00;         /* Cor ao passar o mouse */
+}
+/* Mover a logo para o canto superior direito */
+.logo img {
+    position: absolute;
+    top: 10px; /* Distância de 10px do topo */
+    left: 10px; /* Distância de 10px da direita */
+}
+/* Adicionando uma borda apenas na parte inferior do cabeçalho */
+header {
+    background-color: #000c22;
+    color: white;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255); /* Sombra */
+}
