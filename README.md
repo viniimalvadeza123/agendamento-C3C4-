@@ -24,11 +24,6 @@ O sistema permite que usuários cadastrem suas corridas, e que o administrador v
 ✅ Design responsivo e moderno  
 
 ---
-## 📸 Demonstração
-
-![Tela inicial do sistema](imagem.tela/site-agendamneto-print.PNG)
-
----
 
 👨‍💻 Autor
 
