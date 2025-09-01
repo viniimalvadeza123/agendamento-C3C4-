@@ -33,6 +33,8 @@ O sistema permite que usuários cadastrem suas corridas, e que o administrador v
 👨‍💻 Autor
 
 Desenvolvido por Vinicius Silva
+---
 📧 gmail: viniciusvdsousa2013@gmail.com
+---
 📱   whatsapp: https://wa.me/5519998915741
 
