@@ -26,7 +26,7 @@ O sistema permite que usuários cadastrem suas corridas, e que o administrador v
 ---
 ## 📸 Demonstração
 
-![Tela inicial do sistema](site-agendamneto-print.PNG)
+![Tela inicial do sistema](imagem.tela/site-agendamneto-print.PNG)
 
 ---
 
